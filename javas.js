@@ -35,7 +35,6 @@ materias.forEach(materia => {
     materia.classList.add("checked");
   }
 
-  // Verificar si tiene previas y si están aprobadas
   if (previas[id]) {
     const previasCumplidas = previas[id].every(prev => saved[prev]);
     if (!previasCumplidas) {
