@@ -53,7 +53,6 @@ materias.forEach(materia => {
     saved[id] = materia.classList.contains("checked");
     localStorage.setItem("estadoMaterias", JSON.stringify(saved));
 
-    // Actualizar materias dependientes
     for (let clave in previas) {
       if (previas[clave].includes(id)) {
         const siguiente = document.getElementById(clave);
