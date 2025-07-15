@@ -24,7 +24,7 @@ li.checked {
       text-decoration: line-through;
 }
 li.locked {
-      background-color: #fdd;
+      background-color: #E6E6FA;
       cursor: not-allowed;
       opacity: 0.6;
 }
