@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1c3c3;
+    max-width: 800px;
+    margin: 20px auto;
+}
+h2 {
+      margin-top: 30px;
+}
+
+ul {
+      list-style: none;
+      padding: 0;
+}
+li {
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, text-decoration 0.3s;
+}
+li.checked {
+      background-color: #c8e6c9;
+      text-decoration: line-through;
+}
+li.locked {
+      background-color: #fdd;
+      cursor: not-allowed;
+      opacity: 0.6;
+}
+.años-container {
+    display: flex;
+    justify-content: center;
+}
+
+#malla {
+    display: flex;
+    gap: 2rem; /* Espacio entre los años */
+}
+
+#malla > div {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    min-width: 200px;
+}
+
